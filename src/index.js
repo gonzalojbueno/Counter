@@ -27,7 +27,7 @@ import React from 'react';
                 <div className="two">{props.digitTwo % 10}</div>
                 <div className="one">{props.digitOne % 10}</div>
              </div>)
-    } // Pasar los props a los digitos
+    } // Pasar los props a los digitos y hacer calculos
 
     SimpleCounter.propTypes = {
         digitSix: PropTypes.number,
